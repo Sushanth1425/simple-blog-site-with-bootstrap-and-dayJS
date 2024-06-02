@@ -1,6 +1,6 @@
 import dayjs from  'https://unpkg.com/dayjs@1.11.10/esm/index.js'
 
-let no_of_posts= Number(prompt("How many posts u want?"));
+let no_of_posts= Number(prompt("How many posts you want to be displayed?"));
 function format_date(date){
   return dayjs(date).format('MMM DD, YYYY');
 }
@@ -12,7 +12,7 @@ for(let i=1; i<=no_of_posts; i++){
       <div class="card">
         <div class="row">
           <div class="col-6 col-sm-12 d-xs-flex align-content-center">
-            <img src="https://picsum.photos/id/${i}/300/200" alt="" class="img-fluid rounded  ">
+            <img src="https://picsum.photos/id/${i}/300/200" alt="IMAGE LOADING....." class="img-fluid rounded  ">
           </div>
           <div class="col-6 col-sm-12">
             <div class="card-body">
